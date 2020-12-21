@@ -1,0 +1,43 @@
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /** Variables */
+  --bg-color: whitesmoke;
+  --primary-text-color: rgb(25, 25, 25);
+  --secondary-text-color: gold;
+  --button-link-color: goldenrod;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, input, textarea, button, a {
+  color: var(--primary-text-color);
+}
+
+button, input, textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+textarea:focus {
+  border: none; /* WebKit/Blink Browsers */
+  background-color: transparent;
+}
+textarea::-moz-selection {
+  border: none; /* Gecko Browsers */
+  background-color: transparent;
+}
